@@ -1,0 +1,19 @@
+
+body {
+  background-color: white
+}
+
+
+
+
+.logogoogle {
+  width: 272px;
+  height: 233px;
+}
+
+/* resize images */
+.logogoogle img {
+  width: 100%;
+  height: auto;
+}
+

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<link rel="stylesheet" href="hp_google.css"/>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Titre</title>
+</head>
+
+<body>
+<p>   
+    <div class="navbar">
+
+        <a href= "">Gmail</a>
+        <a href= "">Images</a>
+      
+      <div class="menu">
+          <img src="images/menu.png" />
+          </div>
+
+      <div class="connexion">
+      <button type="button">Connexion</button>
+          </div>
+
+    </div>
+</p>
+
+<p>
+        <div class="logogoogle">
+                <img src="images/google.png" />
+                </div>
+
+                <div class="centerbar">
+                    <input type="text" placeholder="Search..">
+                  </div>
+        
+    
+        <button type="button">Recherche Google</button>
+        <button type="button">J'ai de la chance</button>
+</p>
+
+
+
+<footer>
+<div class = "country">
+    <ul>
+    <a href= "">France</a>
+    </ul>
+</div>
+
+
+<div class="links">
+  <ul>
+      <a href= "">Publicité</a>
+      <a href= "">Entreprise</a>
+      <a href= "">A propos</a>
+      <a href= "">Info consommateurs</a>
+      <a href= "">Confidentialité</a>
+      <a href= "">Conditions</a>
+      <a href= "">Paramètres</a>
+  </ul>
+</div>
+</footer>
+    
+</body>
+</html>
+
+
+
+body {
+  background-color: white
+}
+
+
+
+
+.logogoogle {
+  width: 272px;
+  height: 233px;
+}
+
+/* resize images */
+.logogoogle img {
+  width: 100%;
+  height: auto;
+}
