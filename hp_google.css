@@ -1,6 +1,7 @@
 
 body {
-  background-color: white 
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar {
@@ -20,6 +21,22 @@ a {
  margin-right: 10px;
  font-size: 14px;
  }
+
+ .marge button {
+	background-color: #4285f4;
+	border: 1px solid #4285f4;
+	border-radius: 2px;
+	color: #fff; 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	min-width: 54px; 
+	padding: 0 16px; 
+	text-align: center; 
+	height: 30px;
+	line-height: 27px;
+}
+
 #carre {
 	margin-left: 5px;
 }
@@ -51,6 +68,7 @@ a {
 }
 
 .search input {
+	padding-left: 25px; 
 	height: 30px;
 	width: 600px;
 	border: 1px solid #ddd; /* taille, style, color */
@@ -59,29 +77,63 @@ a {
 
 .buttons {
 	padding-top: 25px;
-	padding-bottom: 170px;
 }
+
+.buttons button {
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	color: #757575;  
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 11px 4px;
+	min-width: 54px; 
+	padding: 0 16px; 
+	text-align: center; 
+	height: 36px;
+	line-height: 27px;
+}
+
 .country {
 	display:flex;
 	display: flex-end;
 	background: #f2f2f2; 
 	border-top: solid 2px #e4e4e4; 
 }
+
 footer	{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
 	background: #f2f2f2; 
 	border-top: solid 2px #e4e4e4; 
 	display:flex;
-	align-items: flex-end;
+	flex-direction: column;
+	
 }
+
+.country ul {
+	padding-left: 20px; 
+	margin-top: 10px;
+	margin-bottom: 10px; 
+}
+
+
+.links ul {
+	 padding-left: 20px;
+	 margin-top: 10px; 
+	 margin-bottom: 10px;
+}
+
 .links {
 	display:flex;
-	justify-content : space-between
-	align-content : flex-end;
+	justify-content : space-between;
 }
 
-.linksleft {
-	margin-right: 600px;
-
+.linksright ul {
+	padding-right: 20px; 
 }
 
 
