@@ -1,27 +1,31 @@
 
 body {
-  background-color: white
-  
-  
+  background-color: white 
 }
 
 .navbar {
  text-align: justify;
  display: flex;
  justify-content: flex-end;
+ padding-top: 15px; /* Baisse la nav bar */
  
 }
-
+a {
+	color: #222;
+	text-decoration: none; /* Dessouligne les liens */
+	font-size: 14px;
+}
 .marge {
  margin-left: 5px;
  margin-right: 10px;
+ font-size: 14px;
  }
-
+#carre {
+	margin-left: 5px;
+}
 #carre img {
- width: 30% ; 
+ width: 25% ; 
  height: auto;
- margin-left: 10px;
- margin-right: 0px;
 }
 
 .main {
@@ -34,10 +38,10 @@ body {
 
 .logogoogle {
 	width: 220px;
-	height: 100px;
+	height: 120px;
 	text-align: center;
-	padding-top: 112px;
-	padding-bottom: 20px;
+	padding-top: 140px;
+	
 }
 
 /* resize images */
@@ -49,11 +53,13 @@ body {
 .search input {
 	height: 30px;
 	width: 600px;
+	border: 1px solid #ddd; /* taille, style, color */
+	box-shadow: 0px 5px 5px 0px #ddd; /* Dimension des ombres + couleur */
 }
 
 .buttons {
 	padding-top: 25px;
-	padding-bottom: 180px;
+	padding-bottom: 175px;
 }
 .country {
 	display:flex;
@@ -75,6 +81,7 @@ footer	{
 
 .linksleft {
 	margin-right: 600px;
+
 }
 
 
